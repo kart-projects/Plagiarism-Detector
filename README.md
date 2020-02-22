@@ -28,7 +28,7 @@ I think cloud technologies that vendors like AWS provide simply eases the way en
 
 ## Files
 
-The main files in this repo that are required for running of the web app are briefly summarized below (Please note that test case functions and other helper functions are imported from **helpers.py** and **problem_unittests.py**. You will need these files to successfully run the notebook files below.
+The main files in this repo that are required for running of the web app are briefly summarized below (Please note that test case functions and other helper functions are imported from **helpers.py** and **problem_unittests.py**). You will need these files to successfully run the notebook files below.
 
 1. **1_Data_Exploration.ipynb**
      - This notebook file provides a step by step walkthrough of the data exploration steps that was done prior to training our model. We looked at the breakdowns as bar plots showing the category counts of plagiarism levels for each task.
@@ -41,7 +41,7 @@ The main files in this repo that are required for running of the web app are bri
 
 ## Summary Results
 
-To summarize I was able to successfully complete the tasks that were assigned to me in the notebooks mentioned above and finally create a sklearn LinearSVC model that was used to classify the provided answer files as plagiarized or not. In this case we used only few features and small set of text files to train and test our plagiarism model. The model actually performed well and produced 100% accuracy on the test files
+To summarize, I was able to successfully complete the tasks that were assigned to me in the notebooks mentioned above and finally create a sklearn LinearSVC model that was used to classify the provided answer files as plagiarized or not. In this case we used only few features and small set of text files to train and test our plagiarism model. The model actually performed well and produced 100% accuracy on the test files.
 
 All analysis and results are well documented with the attached notebook files. Please review that for more details.
 
